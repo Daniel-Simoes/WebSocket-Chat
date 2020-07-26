@@ -9,7 +9,7 @@ export const Container = styled.div`
   height: 100vh;
   background: url(${background}) no-repeat top;
   background-size: cover;
-
+  
   @media (max-width: 425px) {
     background: url(${shape}) no-repeat bottom;
   }
@@ -24,13 +24,7 @@ export const Main = styled.div`
   height: 60%;
   width: 35%;
   box-shadow: -40px 40px 30px rgba(0, 0, 0, 0.2);
-
-  /* @media (max-width: 2560px) {
-    margin-right: -70px;
-    width: 30%;
-    height: 60%;
-  } */
-
+  
   @media (max-width: 1440px) {
     margin-right: -90px;
   }
@@ -63,5 +57,3 @@ export const Main = styled.div`
     margin-top: 0;
   }
 `;
-
-

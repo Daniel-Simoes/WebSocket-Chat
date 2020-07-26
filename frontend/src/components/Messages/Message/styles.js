@@ -15,9 +15,6 @@ export const ContainerSend = styled.div`
     padding-right: 10px;
   }
 
-  /* @media (max-width: 2560px) {
-    font-size: 25px;
-  } */
 `;
 
 export const MessageBoxSend = styled.div`
@@ -38,10 +35,6 @@ export const MessageBoxSend = styled.div`
     word-wrap: break-word;
     padding-right: 10px;
   }
-
-  /* @media (max-width: 2560px) {
-    font-size: 25px;
-  } */
 `;
 
 export const ContainerRecive = styled.div`
@@ -58,16 +51,13 @@ export const ContainerRecive = styled.div`
     letter-spacing: 0.3px;
     padding-left: 10px;
   }
-
-  /* @media (max-width: 2560px) {
-    font-size: 25px;
-  } */
 `;
 
 export const MessageBoxRecive = styled.div`
   background: #0376f5;
   border-radius: 8px;
   padding: 5px 20px;
+  text-align:justify;
   color: #FFF;
   display: inline-block;
   max-width: 80%;
@@ -82,8 +72,4 @@ export const MessageBoxRecive = styled.div`
     word-wrap: break-word;
     padding-right: 10px;
   }
-
-  /* @media (max-width: 2560px) {
-    font-size: 25px;
-  } */
 `;

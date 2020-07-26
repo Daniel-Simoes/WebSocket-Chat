@@ -11,15 +11,9 @@ export const Container = styled.div`
 
   > h2 {
     margin-left: 65px;
+    margin-top: 10px;
   }
 
-  /* @media (max-width: 2560px) {
-    
-    h2 {
-      font-size: 40px;
-    }
-  } */
-  
   @media (max-width: 1440px) {
     margin-right: 40px;
   }
@@ -49,22 +43,6 @@ export const Header = styled.div`
     width: 250px;
     margin-top: -160px;
   }
-
-  /* @media (max-width: 2560px) {
-    padding: 0;
-    
-    img {
-      height: 320px;
-      width: 400px;
-      margin-top: -100px;
-    }
-
-    h1 {
-      margin-top: 20px;
-      margin-left: -80px;
-      font-size: 70px;
-    }
-  } */
 
   @media (max-width: 1440px) {
     padding: 0;
@@ -145,22 +123,6 @@ export const Room = styled.div`
     padding: 3px;
   }
 
-  /* @media (max-width: 2560px) {
-    
-    h1 {
-      margin: 0;
-      font-size: 60px;
-    }
-
-    img {
-      height: 60px;
-      width: 60px;
-      opacity: 0.7;
-      margin:0;
-      padding: 3px;
-    }
-  } */
-
   @media (max-width: 1024px) {
     h1, img {
       margin-top: 40px;
@@ -180,10 +142,11 @@ export const Room = styled.div`
 
 export const Users = styled.div`
   margin-left: 50px;
+  margin-top: 10px;
   display: flex;
 
   > h1 {
-    margin: 0;
+    margin: 0; 
   }
 
   > img {
@@ -193,22 +156,6 @@ export const Users = styled.div`
     margin:0;
     padding: 3px;
   }
-
-   /* @media (max-width: 2560px) {
-    
-    h1 {
-      margin: 0;
-      font-size: 60px;
-    }
-
-    img {
-      height: 60px;
-      width: 60px;
-      opacity: 0.7;
-      margin:0;
-      padding: 3px;
-    }
-  } */
 
   @media (max-width: 768px) {
     h1 {
@@ -225,13 +172,7 @@ export const ActiveContainer = styled.div`
   display: flex;
   align-items: center;
   margin-bottom: 50%;
-
-  /* @media (max-width: 2560px) {
-    
-    h2 {
-      font-size: 40px;
-    }
-  } */
+  margin-top: 10px;
 `;
 
 export const ActiveItem = styled.div`

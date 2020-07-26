@@ -9,11 +9,6 @@ export const Container = styled.div`
   height: 60px;
   width: 100%;
 
-  /* @media (max-width: 2560px) {
-    height: 100px;
-    font-size: 25px;
-  } */
-
   @media (max-width: 425px) {
     border-radius: 0;
     }
@@ -45,7 +40,7 @@ export const Buttom = styled.button`
       width: 15px;
       opacity: 0.7;
       margin-top: 7px;
-      margin-left: 2px;
+      margin-left: 8px;
     }
   }
 `;

@@ -3,12 +3,11 @@
     <br>
 </h1>
 
-In this project I created a real time chat application that allow differents users to chat. I used Socket.io to manage real time WebSocket connections to a Node.js server.
-It will allow you to communicate real time chat messages with all clients connected to a single server.
+On this project, I created a real-time chat application that allows different users to chat. I used Socket.io to manage real-time WebSocket connections to a Node.js server. It will allow you to communicate in real-time chat messages with all clients connected to a single server.
 
-This entire project I used only JavaScript(`NodeJS` to backend and `ReactJS` to frontend).
+On this entire project, I only used JavaScript(NodeJS to backend and ReactJS to frontend).
 
-By the end of this project I could get a strong understanding of how to send and receive messages using WebSockets and `Socket.io` to make any real time application.
+By the end of this project, I was able to get a better understanding of how to send and receive messages using WebSockets and Socket.io to make any real-time application.
 
 
 ## 🖥 Apresentation
@@ -27,13 +26,13 @@ git clone https://github.com/Daniel-Simoes/WebSocket-Chat
 
 ## 1️⃣ Setting the Backend
 
-Open a terminal on the repository and look for backend's folder and install the dependencies:
+Open the terminal on the repository, look for the backend's folder then, install the dependencies:
 
 ```bash
 yarn install
 ```
 
-After finish the dependencie's instalation, run the backend:
+After finishing the dependancies’ installation, run the backend:
 
 ```bash
 yarn dev
@@ -41,7 +40,7 @@ yarn dev
 
 ## 2️⃣ Setting the Frontend
 
-Open other window from you terminal and go to Web's folder and install the dependencies:
+Open an other window on your terminal, go to Web's folder and install the dependencies:
 
 ```bash
 yarn install
@@ -53,32 +52,38 @@ To run the application use:
 yarn start
 ```
 
-## 🤷🏻‍♂️ Do you had any Problem with the instalation?
+## 🤷🏻‍♂️ Did you have any problems with the installation?
 
-- Have sure if you have `Node` instaled in your machine.
+- Make sure that you have Node installed in your machine.
 
 ```bash
 Solution: Install Node
 ```
-- Have sure if you have `Yarn` or `NPM` instaled in your machine.
+- Assure that you have `Yarn` or `NPM` installed in your machine.
 
 ```bash
 Solution: Install Yarn or NPM
 ```
-- Have sure if a dependencie called `Nodemon` in the package.json file(Backend) is there.
+- A dependency called Nodemon in the package.json file(Backend) should be there.
 
 ```bash
-Solution: Install Nodemon as dependency on project.
+Solution: Install Nodemon as a dependency on project.
+```
+- Faleid comunication between frontend and backend?
+
+```bash
+Solution: Set a empty PORT on beckend.Them go to frontend/src/pages/chat and fix the ENDPOINT = 'NEW_PORT';
 ```
 
 ## 🎯 Bonus
 
-If you did all steps, you maybe finished the aplication instalation, congratulations! The aplication is running in your localhost, but I have a bonus for you, if you want to show or type with someone, I already did the deploy and you can access the WebPage.
+If you completed all the steps successfully, you are finished with the installation, congrats! 
+The application should now be running in your localhost and I have a bonus for you, if you want to chat with someone, the deploy has already been made and you can access it through the WebPage.
 
-Copy the Link bellow and past on Browser:
+Copy the link below and paste on your Browser
 
 ```bash
-https://fervent-visvesvaraya-462fd2.netlify.app
+https://daniel.natalprojetos.com.br/
 ```
 
 ## :books: Technologies

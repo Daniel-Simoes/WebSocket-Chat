@@ -8,10 +8,10 @@ export const Container = styled.div`
   border-radius: 4px 4px 0 0;
   height: 60px;
   width: 100%;
-
+  
   @media (max-width: 425px) {
     border-radius: 0;
-    }
+  }
 `;
 
 export const Room = styled.div`
@@ -31,16 +31,16 @@ export const Buttom = styled.button`
   border-radius: 50%;
   width: 30px;
   height:30px;
-
+  
   > a {
     text-decoration: none;
-
+    
     > img {
       height: 15px;
       width: 15px;
       opacity: 0.7;
-      margin-top: 7px;
-      margin-left: 8px;
+      margin-top: 8px;
+      margin-left: 9px;
     }
   }
 `;

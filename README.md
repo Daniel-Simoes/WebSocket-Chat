@@ -83,7 +83,7 @@ The application should now be running in your localhost and I have a bonus for y
 Copy the link below and paste on your Browser
 
 ```bash
-https://daniel.natalprojetos.com.br/
+https://happy-noyce-9e1119.netlify.app
 ```
 
 ## :books: Technologies

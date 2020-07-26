@@ -21,24 +21,19 @@ export const Main = styled.div`
   justify-content: space-between;
   background:rgba(219, 130, 130, 0.089);
   border-radius: 4px 4px 4px 4px ;
-  height: 60%;
-  width: 35%;
+  height: 650px;
+  width: 600px;
   box-shadow: -40px 40px 30px rgba(0, 0, 0, 0.2);
   
-  @media (max-width: 1440px) {
-    margin-right: -90px;
-  }
-
   @media (max-width: 1024px) {
-    margin-right: -70px;
-    width: 40%;
-    height: 61%;
+    width: 450px;
+    height: 600px;
   }
 
   @media (max-width: 768px) {
-    margin-left: -365px;
-    width: 53%;
-    height: 60%;
+    margin-left: -305px;
+    width: 500px;
+    height: 600px;
     margin-top: 80px;
   }
 
@@ -49,11 +44,11 @@ export const Main = styled.div`
     margin-top: 0;
     margin-right: -55px;
   }
-
+  
   @media (max-width: 375px) {
     width: 100%;
     height: 100%;
     box-shadow: none;
     margin-top: 0;
-  }
+  } 
 `;

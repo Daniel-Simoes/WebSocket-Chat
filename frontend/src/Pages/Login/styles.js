@@ -14,62 +14,18 @@ export const Container = styled.div`
   background-size: cover;
 
   > img {
-    margin-top: -50px;
     width: 280px;
     height: 180px;
-  }
-  
-  @media (max-width: 2560px) {
-    img {
-      width: 350px;
-      height: 250px;
-    }
-  }
-
-  @media (max-width: 1440px) {
-    img {
-      width: 290px;
-      height: 200px;
-    }
-  }
-
-  @media (max-width: 1024px) {
-    img {
-      width: 250px;
-      height: 170px;
-    }
-  }
-
-  @media (max-width: 768px) {
-    img {
-      width: 230px;
-      height: 150px;
-    }
-  }
-
-  @media (max-width: 426px) {
-    img {
-      width: 230px;
-      height: 150px;
-    }
-  }
-
-  @media (max-width: 320px) {
-    img {
-      width: 200px;
-      height: 130px;
-    }
+    margin-top: -130px;
   }
 `;
 
 export const Main = styled.div`
-  display: flex;
-  flex-direction: column;
-  max-width: 1200px;
   width: 320px;
+  height:260px;
   background-color: #00000023;
   border-radius: 8px;
-  box-shadow: 20px 30px 30px rgba(0, 0, 0, 0.4);
+  box-shadow: 20px 30px 30px rgba(0,0,0,0.4);
 
   > h1 {
     color: rgb(255, 255, 255);
@@ -80,17 +36,9 @@ export const Main = styled.div`
     border-radius: 8px 8px 0 0;
   }
 
-  @media (max-width: 426px) {
-    width: 280px;
-  }
-
-  @media (max-width: 320px) {
-    width: 250px;
-
-    h1 {
-      font-size: 25px;
-    }
-  }
+  h1 {
+    font-size: 25px;
+  } 
 `;
 
 export const Imput = styled.div`

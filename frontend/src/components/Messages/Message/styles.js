@@ -7,14 +7,18 @@ export const ContainerSend = styled.div`
   justify-content: flex-end;
   
   > p {
-    display: flex;
-    align-items: center;
-    font-family: Helvetica;
-    color: #616362;
-    letter-spacing: 0.3px;
-    padding-right: 10px;
-  }
+      display: flex;
+      align-items: center;
+      font-family: Helvetica;
+      color: #616362;
+      letter-spacing: 0.3px;
+      padding-right: 10px;
+      font-size: 16px;
+    }
 
+   @media (max-width: 2560px) {
+    font-size: 25px;
+  } 
 `;
 
 export const MessageBoxSend = styled.div`
@@ -26,15 +30,19 @@ export const MessageBoxSend = styled.div`
   max-width: 80%;
   margin-bottom: 12px;
   box-shadow:8px 8px 8px rgba(0,0,0,0.1);
-
+  
   > p {
-    width: 100%;
-    letter-spacing: 0;
-    float: left;
-    font-size: 1.1em;
-    word-wrap: break-word;
-    padding-right: 10px;
-  }
+      width: 100%;
+      letter-spacing: 0;
+      float: left;
+      font-size: 16px;
+      word-wrap: break-word;
+      padding-right: 10px;
+    }
+   
+    @media (max-width: 2560px) {
+    font-size: 16px;
+  } 
 `;
 
 export const ContainerRecive = styled.div`
@@ -44,32 +52,39 @@ export const ContainerRecive = styled.div`
   margin-top: 3px;
   
   > p {
-    display: flex;
-    align-items: center;
-    font-family: Helvetica;
-    color: #616362;
-    letter-spacing: 0.3px;
-    padding-left: 10px;
-  }
+      display: flex;
+      align-items: center;
+      font-family: Helvetica;
+      color: #616362;
+      letter-spacing: 0.3px;
+      padding-left: 10px;
+    }
+   
+    @media (max-width: 2560px) {
+    font-size: 16px;
+  } 
 `;
 
 export const MessageBoxRecive = styled.div`
   background: #0376f5;
   border-radius: 8px;
   padding: 5px 20px;
-  text-align:justify;
   color: #FFF;
   display: inline-block;
   max-width: 80%;
   margin-bottom: 12px;
   box-shadow:8px 8px 8px rgba(0,0,0,0.1);
-
+  
   > p {
-    width: 100%;
-    letter-spacing: 0;
-    float: left;
-    font-size: 1.1em;
-    word-wrap: break-word;
-    padding-right: 10px;
-  }
+      width: 100%;
+      letter-spacing: 0;
+      float: left;
+      font-size: 16px;
+      word-wrap: break-word;
+      padding-right: 10px;
+    }
+   
+    @media (max-width: 2560px) {
+    font-size: 25px;
+  } 
 `;
